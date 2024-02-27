@@ -9,7 +9,8 @@ char toLowerCase(char ch)
     {
         return ch;
     }
-    else{
+    else
+    {
         char temp = ch - 'A' + 'a';
         return temp;
     }
@@ -21,7 +22,7 @@ bool cheakPalindrome(char arr[], int n)
 
     while (start <= end)
     {
-       // if (toLowerCase(arr[start]) != toLowerCase(arr[end]))
+        // if (toLowerCase(arr[start]) != toLowerCase(arr[end]))
         if (arr[start] != arr[end])
         {
             return 0;
