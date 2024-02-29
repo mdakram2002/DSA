@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/mdakr/OneDrive/Documents/GitHub/DSA/String",
-      "program": "c:/Users/mdakr/OneDrive/Documents/GitHub/DSA/String/build/Debug/outDebug",
+      "cwd": "c:/Users/mdakr/OneDrive/Documents/GitHub/DSA/DynamicAllocatino",
+      "program": "c:/Users/mdakr/OneDrive/Documents/GitHub/DSA/DynamicAllocatino/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
