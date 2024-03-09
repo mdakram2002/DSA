@@ -23,6 +23,7 @@ int main()
     encap first;
 
     cout << "this is encapsulation" << endl;
+    cout << "All right" << endl;
 
     return 0;
 }
