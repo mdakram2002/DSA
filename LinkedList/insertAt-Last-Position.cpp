@@ -99,6 +99,8 @@ int main()
     insertAtPosition(head, tail, 4, 40);
     print(head);
 
+    cout <<"head is: " << head -> data << endl;
+    cout <<"tail is: " << tail -> data << endl;
 
     return 0;
 }

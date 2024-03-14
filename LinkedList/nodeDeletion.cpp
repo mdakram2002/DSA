@@ -17,7 +17,6 @@ class Node{
     ~Node(){
         int value = this -> data;
         //memory free
-        
         if(this -> next != NULL){
             delete next;
             this -> next = NULL;
@@ -79,6 +78,22 @@ void deleteNode(int position, Node* &head){
         //memory free
         delete temp;
     }
+    else{
+        //deleting any middle node or last node
+        Node* current = head;
+        Node* previous = NULL;
+
+        int count = 1;
+        while(count < position){
+            previous = current;
+            current = current -> next;
+            count++;
+        }
+        previous -> next = current -> next;
+        //memory free
+        current -> next = NULL;
+        delete current;
+    }
 }
 
 void print(Node* &head){
@@ -95,8 +110,18 @@ int main()
 {
     // created new node;
     Node* node1 = new Node(10);
-    Node* head = node1;
 
+    // cout << "head wala part:- " << endl;
+    Node* head = node1;
+    // print(head);
+
+    // insertAtHead(head, 20);
+    // print(head);
+
+    // insertAtHead(head, 30);
+    // print(head);
+
+    cout <<"tail wala part:- " << endl;
     Node* tail = node1;
     print(head);
 
@@ -118,7 +143,7 @@ int main()
     cout <<"tail is: " << tail -> data << endl;
     cout << endl;
 
-    deleteNode(1, head);
+    deleteNode(2, head); //fill the position and delete any position of node
     print(head);
 
     return 0;
