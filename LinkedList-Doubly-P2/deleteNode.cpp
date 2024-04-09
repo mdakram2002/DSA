@@ -63,7 +63,7 @@ void insertAtHead( Node* &head, Node* &tail, int data){
         head -> prev = temp;
         head = temp;
     }
-   
+
 }
 void insertAtTail(Node* &tail,Node* &head, int data){
 
@@ -78,7 +78,7 @@ void insertAtTail(Node* &tail,Node* &head, int data){
         temp -> prev = tail;
         tail = temp;
     }
-    
+
 }
 
 void insertAtPosition(Node* &tail, Node* &head, int position, int data){
@@ -88,7 +88,7 @@ void insertAtPosition(Node* &tail, Node* &head, int position, int data){
         insertAtHead(tail, head, data);
         return;
     }
-    // if we want to insert an element at begining/start then 
+    // if we want to insert an element at begining/start then
     // this above condition is applied
 
     Node* temp = head;
@@ -105,7 +105,7 @@ void insertAtPosition(Node* &tail, Node* &head, int position, int data){
         return;
     }
 
-    //create a node for data 
+    //create a node for data
     Node* nodeToInsert = new Node(data);
 
     nodeToInsert -> next = temp -> next;
