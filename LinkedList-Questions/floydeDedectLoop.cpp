@@ -158,6 +158,29 @@ bool dedectLoopILinkedList(Node* head){
     return false;
 }
 
+Node* floydeDedectLoop(Node* head){
+
+    if(head == NULL){
+        return 0;
+    }
+    Node* slow = head;
+    Node* fast = head;
+
+    while(slow != NULL && fast != NULL){
+
+        fast = fast ->  next;
+        if(fast != NULL){
+            fast = fast -> next;
+        }
+
+        slow = slow -> next;
+        if(slow != NULL){
+            return slow;
+        }
+        return NULL;
+    }
+}
+
 int main()
 {
 
@@ -207,13 +230,13 @@ int main()
     cout << endl;
 
     */
-    if (isCircularLinkedList(tail))
+    if (floydeDedectLoop(head))
     {
-        cout << "LinkedList is Circular in nature: " << endl;
+        cout << "LOOP is dedected: " << endl;
     }
     else
     {
-        cout << "LinkedList is not Circular in nature" << endl;
+        cout << "LOOP is not dadected: " << endl;
     }
 
     return 0;
