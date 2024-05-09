@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/mdakr/OneDrive/Documents/GitHub/DSA/LinkedList-Questions",
-      "program": "c:/Users/mdakr/OneDrive/Documents/GitHub/DSA/LinkedList-Questions/build/Debug/outDebug",
+      "cwd": "c:/Users/mdakr/OneDrive/Documents/GitHub/DSA",
+      "program": "c:/Users/mdakr/OneDrive/Documents/GitHub/DSA/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
