@@ -5,6 +5,7 @@ In this repository, you will find my solutions to various LeetCode problems. Eac
 
 # Happy coding and learning!
 # Here the Covered topics of DSA->
+00. Basic
 01. Array
 02. 2D-Array
 03. Time Complexity
