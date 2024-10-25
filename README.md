@@ -5,20 +5,25 @@ This repository contains my solutions to different LeetCode problems. Each entry
 
 # Happy coding and learning!
 # Here are the Covered topics of DSA->
-00. Basic
-01. Array
-02. 2D-Array
-03. Time Complexity
-04. Space Complexity
-05. Binary Search
-06. Pointers
-07. String
-08. STL-Standard Template Library
-09. Recursion-Part1
-10. Recursion-Part2
-11. Recursion-Part3
-12. OOPs Concept and Pillars
-13. Linked List
-14. LinkedList-Doubly-P2
-15. LinkedList-Circular-P3
-16. Practice Questions
+- 00. Basic
+- 01. Array
+- 02. 2D-Array
+- 03. Time Complexity
+- 04. Space Complexity
+- 05. Binary Search
+- 06. Pointers
+- 07. String
+- 08. STL-Standard Template Library
+- 09. Recursion-Part1
+- 10. Recursion-Part2
+- 11. Recursion-Part3
+- 12. OOPs Concept and Pillars
+- 13. Linked List
+- 14. LinkedList-Doubly-P2
+- 15. LinkedList-Circular-P3
+- 16. Practice Questions
+
+# Contect Me:
+- Email: mdakram12022002@gmail.com 
+- LinkedIn: https://www.linkedin.com/in/mdakram2002/
+- Portfolio: https://myportfolioakram.netlify.app/
