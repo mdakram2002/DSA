@@ -26,4 +26,4 @@ This repository contains my solutions to different LeetCode problems. Each entry
 # Contect Me:
 - Email: mdakram12022002@gmail.com 
 - LinkedIn: https://www.linkedin.com/in/mdakram2002/
-- Portfolio: https://myportfolioakram.netlify.app/
+- Portfolio: https://portfolio-mdakram.netlify.app
