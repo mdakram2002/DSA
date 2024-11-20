@@ -22,6 +22,7 @@ This repository contains my solutions to different LeetCode problems. Each entry
 - 14. LinkedList-Doubly-P2
 - 15. LinkedList-Circular-P3
 - 16. Practice Questions
+- 17. Array Quesions
 
 # Contect Me:
 - Email: mdakram12022002@gmail.com 
